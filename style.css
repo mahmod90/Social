@@ -1,0 +1,177 @@
+/* Variables */
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 20%);
+  --dark-grey: hsl(0, 0%, 12%);
+  --off-black: hsl(0, 0%, 8%);
+}
+
+/* CSS Reset */
+
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  background: var(--off-black);
+  color: var(--white);
+}
+
+.card {
+  width: 400px;
+  padding: 55px;
+  text-align: center;
+  background: var(--dark-grey);
+  border-radius: 25px;
+}
+
+.avatar {
+  width: 87px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.name {
+  margin-top: 2.5rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.location {
+  margin-top: 0.9rem;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--green);
+}
+
+.text {
+  margin-top: 2.8rem;
+  font-size: 16px;
+}
+
+.links {
+  margin-top: 2.6rem;
+  padding: 0;
+  list-style: none;
+}
+.links li:not(:first-child) {
+  margin-top: 1.5rem;
+}
+
+.link {
+  display: block;
+  text-decoration: none;
+  line-height: 4.6rem;
+  font-weight: 700;
+  background: var(--grey);
+  color: inherit;
+  border-radius: 0.8rem;
+  transition: all 0.3s ease;
+}
+.link:hover {
+  background: var(--green);
+  color: var(--off-black);
+}
+
+
+
+/* ------------------########################## */
+/* :root {
+  --Green: hsl(75, 94%, 57%);
+  --clr-White: hsl(0, 0%, 100%);
+  --clr-Grey: hsl(0, 0%, 20%);
+  --DarkGrey: hsl(0, 0%, 12%);
+  --OffBlack: hsl(0, 0%, 8%);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.social {
+  background-color: var(--DarkGrey);
+  width: 32rem;
+  padding: 1.8rem;
+  border-radius: .8rem;
+  text-align: center;
+}
+
+.soial-img {
+  margin: auto;
+  border-radius: 40%;
+}
+
+img {
+  margin: auto;
+  border-radius: 50%;
+}
+.social-text {
+  padding-top: 20px;
+
+}
+
+.social-text h1 {
+  color: var(--clr-White);
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.social-text h2 {
+  color: var(--Green);
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.socila-header p{
+  color: var(--clr-White);
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+
+}
+
+.social-media li {
+  width: 100%;
+  background-color: var(--clr-Grey);
+  color: var(--clr-White);
+  padding: 25px 0;
+  border-radius: 1rem;
+  margin-bottom: 25px;
+  font-weight: bold; 
+} 
+
+.social-media li a {
+  background-color: var(--clr-Grey);
+  color: var(--clr-White);
+  padding: 18px 0;
+  border-radius: 1rem;
+  margin-bottom: 25px;
+  font-weight: bold;
+  
+}
+
+ul.social-media {
+  background-color: var(--clr-Grey);
+  color: var(--clr-White);
+  padding: 18px 0;
+  border-radius: 1rem;
+  margin-bottom: 25px;
+  font-weight: bold;
+} */
